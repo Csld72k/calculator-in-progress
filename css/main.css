@@ -32,6 +32,9 @@
   display: flex;
   justify-content: space-between;
 }
+.calculator .container .header .cursor-default {
+  cursor: default;
+}
 .calculator .container .display {
   height: 10rem;
   padding: 0 15px;

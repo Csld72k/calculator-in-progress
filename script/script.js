@@ -1,3 +1,0 @@
-document.onselectstart = () => {
-    return false
-}
