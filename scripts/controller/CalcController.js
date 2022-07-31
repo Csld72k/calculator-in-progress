@@ -82,7 +82,6 @@ class CalcController {
 
     }
 
-    // let last = this._operation.pop();
     let result = eval(this._operation.join(''));
 
     if (last == '%') {
@@ -245,7 +244,6 @@ class CalcController {
     buttons.forEach((btn, index) => {
       btn.addEventListener('click', e => {
         let textBtn = (btn.id.replace('btn-', ''));
-        // console.log(textBtn);
         this.execBtn(textBtn);
       })
     })
